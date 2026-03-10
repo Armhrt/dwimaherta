@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWIMAHERTA - Handcrafted Concrete</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f4f4f4; /* Warna semen terang */
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --accent-color: #666666; /* Warna abu-abu beton */
+            --hover-color: #000000;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin-bottom: 15px;
+            border: 3px solid white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        p.bio {
+            font-size: 0.9rem;
+            color: var(--accent-color);
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-card {
+            background-color: var(--card-bg);
+            padding: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .link-card:hover {
+            transform: translateY(-3px);
+            background-color: var(--hover-color);
+            color: white;
+            border-color: var(--hover-color);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Logo" class="profile-img">
+        
+        <h1>Dwimaherta Living</h1>
+        <p class="bio">Minimalist Concrete Decor & Lifestyle.<br>Handcrafted with precision and passion. 🛠️</p>
+
+        <div class="links">
+            <a href="https://shopee.co.id/username" class="link-card" target="_blank">🛒 Beli di Shopee</a>
+            <a href="https://tokopedia.com/username" class="link-card" target="_blank">📦 Tokopedia</a>
+            <a href="https://tiktok.com" class="link-card" target="_blank">♪ TikTok - dwimaherta</a>
+            <a href="https://instagram.com/dwimaherta" class="link-card" target="_blank">📸 Instagram - dwimaherta</a>
+            <a href="#" class="link-card">💻 Tech & Process Blog</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Crafted by Myself
+        </div>
+    </div>
+
+</body>
+</html>
